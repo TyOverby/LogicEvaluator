@@ -1,8 +1,34 @@
 <html>
     <body>
-        <applet code="com.tyoverby.logicparser.LogicApplet.class"
-        archive="logic_parser.jar"
-        width="50%" height="90%">
-        </applet>
+        <table style="width:100%;height:100%;">
+            <tr>
+                <td width=50%>
+                    <applet code="com.tyoverby.logicparser.LogicApplet.class" archive="logic_parser.jar" width="100%" height="100%"> </applet>
+                </td>
+                <td valign="top" width=50%>
+                    <p>
+                    This is a program that generates truth tables.  Enter your formula in the top bar and hit compile.
+                    The symbols are:
+                    <pre>
+                        ~    unary not
+                        &    logical and
+                        |    logical or
+                        ->   implication
+                        <->  equality
+                        </pre>
+                    It will only accept well-formed-formulas.
+                    </p>
+                    <p>
+                    Source is available <a href="https://github.com/TyOverby/LogicEvaluator">here</a>.
+                    A downloadable and runnable .jar file is available <a href="http://tyoverby.com/LogicEvaluator/logic_parser.jar">here</a>
+                    </p>
+                    <p>
+                    I'm having issues on Chrome that make it so you only see a grey box instead of the program if you open up the page more than once.
+                    You can fix this by restarting your browser or by killing the java process.  If anyone knows why this happens, I'd be really interested in
+                    finding out. Email me at ty@pre-alpha.com.
+                    </p>
+                </td>
+            </tr>
+        </table>
     </body>
 </html>
