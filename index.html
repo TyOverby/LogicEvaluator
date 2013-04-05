@@ -3,7 +3,9 @@
         <table style="width:100%;height:100%;">
             <tr>
                 <td width=50%>
-                    <applet code="com.tyoverby.logicparser.LogicApplet.class" archive="logic_parser.jar" width="100%" height="100%"> </applet>
+                    <applet code="com.tyoverby.logicparser.LogicApplet.class" archive="logic_parser.jar" width="100%" height="100%">
+                        <param name="separate_jvm" value="true">
+                    </applet>
                 </td>
                 <td valign="top" width=50%>
                     <p>
@@ -23,9 +25,7 @@
                     A downloadable and runnable .jar file is available <a href="http://tyoverby.com/LogicEvaluator/logic_parser.jar">here</a>
                     </p>
                     <p>
-                    I'm having issues on Chrome that make it so you only see a grey box instead of the program if you open up the page more than once.
-                    You can fix this by restarting your browser or by killing the java process.  If anyone knows why this happens, I'd be really interested in
-                    finding out. Email me at ty@pre-alpha.com.
+                    Email me at ty@pre-alpha.com.
                     </p>
                 </td>
             </tr>
